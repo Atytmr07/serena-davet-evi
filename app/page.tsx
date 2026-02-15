@@ -18,9 +18,7 @@ export default function Home() {
             <Testimonials />
             <Map />
             <Footer />
-            <div className="hidden md:block">
-                <WhatsAppFloat />
-            </div>
+            <WhatsAppFloat />
         </main>
     );
 }
