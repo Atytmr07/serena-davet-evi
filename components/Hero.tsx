@@ -121,7 +121,7 @@ export default function Hero() {
             </div>
 
             {/* Scroll Indicator */}
-            <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-70 animate-bounce">
+            <div className="absolute bottom-10 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 opacity-70 animate-bounce">
                 <span className="text-[10px] text-white/50 tracking-[0.3em] uppercase font-sans">Kaydır</span>
                 <div className="w-[1px] h-8 bg-gradient-to-b from-white/0 via-white/50 to-white/0" />
                 <ChevronDown className="w-6 h-6 text-white/50" />
